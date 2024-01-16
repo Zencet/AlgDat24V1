@@ -1,6 +1,5 @@
 import java.io.*;
 import java.util.Scanner;
-import java.lang;
 
 class oblig_1
 {
@@ -66,6 +65,23 @@ class oblig_1
          tmp *= 1;
       return iterasjoner;
    }
+
+   public static void kombinatorisk(long n)
+   { 
+
+      int tmp = 1;
+      long factorial = 1;
+        while(tmp<= n)
+        {
+            factorial *= tmp;
+            tmp++;
+        }
+      for (long i = 1; i < factorial; i++){
+         tmp *= 1;
+         System.out.println(i);
+      }
+
+   }
     
    public static void main(String[] args)
    {
@@ -91,6 +107,8 @@ class oblig_1
         kubisk(n);
       else if (valg == 6)
         eksponensiell(n);
+      else if (valg == 7)
+        kombinatorisk(n);
       T2 = System.currentTimeMillis();
       
 	
