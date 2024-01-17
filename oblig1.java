@@ -15,9 +15,10 @@ class oblig_1
     for (long i = 0; i < n; i++){
         for (long j = n; j > 0; j /= 2){
         tmp *= 1;
-        
-        }
         //System.out.println(i);
+        //System.out.println(j);
+        }
+        
     }
         
    }
@@ -89,7 +90,7 @@ class oblig_1
       long n, T, T1, T2;
       int valg, iterasjoner = 0;
 
-      System.out.print("1:O(n) 2:O(n²) 3:O(log_n) 4:O(n*log_n) 5:O(n^3) 6:O(2^n)  ? ");
+      System.out.print("1:O(n) 2:O(n²) 3:O(log_n) 4:O(n*log_n) 5:O(n^3) 6:O(2^n)  7:(n!)? ");
       valg = S.nextInt();
       System.out.print("n? ");
       n = S.nextLong();
