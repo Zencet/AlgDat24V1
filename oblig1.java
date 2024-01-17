@@ -54,7 +54,7 @@ class oblig_1
       long e = (long)Math.pow(2, n);
       for (long i = 1; i < e; i++){
          tmp *= 2;
-         System.out.println(i);
+         //System.out.println(i);
       }
       
    }
